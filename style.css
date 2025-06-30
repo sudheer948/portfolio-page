@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 60px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#skills ul, #projects ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* using grid
+#skills ul, #projects ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+} */
+
+#skills li, #projects li {
+    background: #e3e3e3;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    #skills ul, #projects ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    #skills li, #projects li {
+        font-size: 0.9rem;
+    }
+}
