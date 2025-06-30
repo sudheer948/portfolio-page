@@ -24,4 +24,4 @@ It is designed using semantic HTML and responsive styling techniques like Flexbo
 
  Clone the repository:
    ```bash
-   git clone https://github.com/sudheer948/portfolio-page.git
+   git clone https://sudheer948.github.io/portfolio-page/
