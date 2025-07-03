@@ -49,13 +49,6 @@ a:hover {
     flex-wrap: wrap;
 }
 
-/* using grid
-#skills ul, #projects ul {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-} */
-
 #skills li, #projects li {
     background: #e3e3e3;
     padding: 8px 14px;
